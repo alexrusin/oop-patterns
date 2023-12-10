@@ -1,0 +1,3 @@
+type Shipment = {
+  trackingNumber: string;
+};

@@ -2,9 +2,11 @@ import { Order, OrderSource } from "./order.js";
 
 export default abstract class TrackingInfoSender {
   protected order: Order;
+
   constructor(order: Order) {
     this.order = order;
   }
+
   abstract sendTracking(): void;
 
   static getSender(order: Order): TrackingInfoSender {

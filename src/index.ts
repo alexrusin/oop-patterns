@@ -1,3 +1,3 @@
-import runStrategyPattern from "./strategyPattern/index.js";
+import runObserverPattern from "./observerPattern/index.js";
 
-runStrategyPattern();
+runObserverPattern();
